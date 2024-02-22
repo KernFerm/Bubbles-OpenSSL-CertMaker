@@ -75,9 +75,9 @@ if "%DOT%"=="" (
 )
 
 if "%DOT%"=="key" (
-    set "FILENAME=fnbubbles420_%HOSTNAME%.key"
+    set "FILENAME=key_%HOSTNAME%.key"
 ) else (
-    set "FILENAME=fnbubbles420_%HOSTNAME%.cnf"
+    set "FILENAME=certificate_%HOSTNAME%.cnf"
 )
 
 if "%DOT%"=="key" (
@@ -188,10 +188,10 @@ echo DNS.1 = *.%HOSTNAME%
 echo DNS.2 = %HOSTNAME%
 ) > %FILENAME%
 
-call openssl req -new -x509 -newkey rsa:4096 -sha256 -nodes -keyout fnbubbles420_%HOSTNAME%.key -days 1096 -out fnbubbles420_%HOSTNAME%.crt -config %FILENAME%
+call openssl req -new -x509 -newkey rsa:4096 -sha256 -nodes -keyout key_%HOSTNAME%.key -days 1096 -out certificate_%HOSTNAME%.crt -config %FILENAME%
 
 echo.
-echo Generated your certificates fnbubbles420_%HOSTNAME%.key and fnbubbles420_%HOSTNAME%.crt.
+echo Generated your certificates key_%HOSTNAME%.key and cetificate_%HOSTNAME%.crt.
 pause
 goto :EOF
 

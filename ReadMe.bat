@@ -63,8 +63,8 @@ echo.
 echo                 BubblesOpenSSLCertMaker.bat change the following: 
 echo.   
 echo      On line 191 as well as line 194
-echo                            fnbubbles420_%hostname%.key TO (example=PutYourName_) yourname_%hostname%.key and 
-echo                            fnbubbles420_%hostname%.cnf TO (example=PutYourName_) yourname_%hostname%.cnf
+echo                            fnbubbles420_%hostname%.key TO (example=PutYourName_) key_%hostname%.key and 
+echo                            fnbubbles420_%hostname%.cnf TO (example=PutYourName_) certificate_%hostname%.cnf
 echo.    
 echo        Remember to save the file after you change it from: 
 echo                            fnbubbles420_%hostname%.key TO (example=PutYourName_) yourname_%hostname%.key and 
