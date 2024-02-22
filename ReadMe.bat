@@ -61,12 +61,16 @@ echo                              ****                                    ****
 echo                              ********************************************
 echo.
 echo                         BubblesOpenSSLCertMaker.bat change the following: 
-echo                                * make sure to do check folder path for key.key and certificate.crt
-echo                        it will be in the same folder when you downloadeded this ZIP file
-echo                        take after you get done take the key.key and certificate.crt then copy them to the
-echo                        where it says Bubbles PEM_CSR Converter and Double Click On Conveter to get
-echo                        the PEM and CSR files. 
-echo.      
+echo.
+echo                           ** make sure to do check folder path for key.key and certificate.crt
+echo                             after you make your key and crt files.
+echo                          To Convert Your Key and Crt to a PFX file use the following:
+echo                      **************************************************************
+echo                      **    Go To This Website For More Information               **
+echo                      **    To Convert Your Key and Crt to a PFX file             **           
+echo                      **  Set=HOSTNAME=https://www.briggsoft.com/signgui.htm      **
+echo                      **************************************************************                       
+echo                      **************************************************************  
 echo.                                            
 echo.     
 echo                   *********************************************************************************

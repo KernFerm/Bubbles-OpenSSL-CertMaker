@@ -64,7 +64,7 @@ if "%HOSTNAME%"=="" (
 )
 
 set DOT=
-echo What's your domain extension? (.key .cnf)
+echo What's your domain extension? (.key .crt)
 set /p DOT=
 if "%DOT%"=="" (
     set "DOT=key"
@@ -77,13 +77,13 @@ if "%DOT%"=="" (
 if "%DOT%"=="key" (
     set "FILENAME=key_%HOSTNAME%.key"
 ) else (
-    set "FILENAME=certificate_%HOSTNAME%.cnf"
+    set "FILENAME=certificate_%HOSTNAME%.crt"
 )
 
 if "%DOT%"=="key" (
     set "FILEEXTENSION=.key"
 ) else (
-    set "FILEEXTENSION=.cnf"
+    set "FILEEXTENSION=.crt"
 )
 
 if "%OPTION%" equ "--use-config" (
