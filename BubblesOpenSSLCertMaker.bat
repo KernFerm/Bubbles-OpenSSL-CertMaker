@@ -1,7 +1,7 @@
 @echo off
 
 :: Author: KernFerm
-:: GitHub: https://github.com/KernFerm/BubblesOpenSSLCertMaker
+:: GitHub: https://github.com/KernFerm/Bubbles-OpenSSL-CertMaker
 :: Purpose: Makes A Self-Signed SSL Certificate using OpenSSL
 
 setlocal enabledelayedexpansion
@@ -39,11 +39,11 @@ if "%OPTION%" equ "-s" (
 )
 
 if "%OPTION%" equ "--open-repo" (
-    start https://github.com/KernFerm/BubblesOpenSSLCertMaker
+    start https://github.com/KernFerm/Bubbles-OpenSSL-CertMaker
     goto :EOF
 )
 if "%OPTION%" equ "-o" (
-    start https://github.com/KernFerm/BubblesOpenSSLCertMaker
+    start https://github.com/KernFerm/Bubbles-OpenSSL-CertMaker
     goto :EOF
 )
 
@@ -284,7 +284,7 @@ echo.   --set-config -s     Set the secondary fields in the config file.
 echo.                       Set to: %CONFIG_FILE%
 echo.
 echo.   --open-repo -o      Open the project repo in the browser.
-echo.                       Repo link: https://github.com/KernFerm/BubblesOpenSSLCertMaker
+echo.                       Repo link: https://github.com/KernFerm/Bubbles-OpenSSL-CertMaker
 echo.
 echo.   --help -h           Show the help dialog.
 echo.
