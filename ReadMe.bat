@@ -66,9 +66,9 @@ echo                           ** make sure to do check folder path for key.key 
 echo                             after you make your key and crt files.
 echo                          To Convert Your Key and Crt to a PFX file use the following:
 echo                      **************************************************************
-echo                      **    Go To This Website For More Information               **
-echo                      **    To Convert Your Key and Crt to a PFX file             **           
-echo                      **  Set=HOSTNAME=https://www.briggsoft.com/signgui.htm      **
+echo                      **        Go To This Website For More Information           **
+echo                      **        To Convert Your Key and Crt to a PFX file         **           
+echo                      **         https://www.briggsoft.com/signgui.htm            **
 echo                      **************************************************************                       
 echo                      **************************************************************  
 echo.                                            
