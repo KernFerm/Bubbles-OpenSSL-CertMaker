@@ -60,24 +60,14 @@ echo                              ****      WITH YOUR OWN INFORMATION!    ****
 echo                              ****                                    ****
 echo                              ********************************************
 echo.
-echo                 BubblesOpenSSLCertMaker.bat change the following: 
-echo.   
-echo      On line 191 as well as line 194
-echo                            fnbubbles420_%hostname%.key TO (example=PutYourName_) key_%hostname%.key and 
-echo                            fnbubbles420_%hostname%.cnf TO (example=PutYourName_) certificate_%hostname%.cnf
-echo.    
-echo        Remember to save the file after you change it from: 
-echo                            fnbubbles420_%hostname%.key TO (example=PutYourName_) yourname_%hostname%.key and 
-echo                            fnbubbles420_%hostname%.cnf TO (example=PutYourName_) yourname_%hostname%.cnf 
-echo.   
-echo      On line 78 and 80 make sure to change the following: 
-echo                            fnbubbles420_%hostname%.key TO (example=PutYourName_) yourname_%hostname%.key and 
-echo                            fnbubbles420_%hostname%.cnf TO (example=PutYourName_) yourname_%hostname%.cnf
-echo.                                                               
-echo        Remember to save the file after you change it from: 
-echo                            fnbubbles420_%hostname%.key TO (example=PutYourName_) yourname_%hostname%.key and 
-echo                            fnbubbles420_%hostname%.cnf TO (example=PutYourName_) yourname_%hostname%.cnf
-echo.       
+echo                         BubblesOpenSSLCertMaker.bat change the following: 
+echo                                * make sure to do check folder path for key.key and certificate.crt
+echo                        it will be in the same folder when you downloadeded this ZIP file
+echo                        take after you get done take the key.key and certificate.crt then copy them to the
+echo                        where it says Bubbles PEM_CSR Converter and Double Click On Conveter to get
+echo                        the PEM and CSR files. 
+echo.      
+echo.                                            
 echo.     
 echo                   *********************************************************************************
 echo                   *************                                                          **********
