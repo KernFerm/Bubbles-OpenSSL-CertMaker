@@ -63,20 +63,20 @@ echo.
 echo                 BubblesOpenSSLCertMaker.bat change the following: 
 echo.   
 echo      On line 191 as well as line 194
-echo                            fnbubbles420_%hostname%.key TO (example=Put Your Name) yourname_%hostname%.key and 
-echo                            fnbubbles420_%hostname%.cnf TO (example=Put Your Name) yourname_%hostname%.cnf
+echo                            fnbubbles420_%hostname%.key TO (example=PutYourName_) yourname_%hostname%.key and 
+echo                            fnbubbles420_%hostname%.cnf TO (example=PutYourName_) yourname_%hostname%.cnf
 echo.    
 echo        Remember to save the file after you change it from: 
-echo                            fnbubbles420_%hostname%.key TO (example=Put Your Name) yourname_%hostname%.key and 
-echo                            fnbubbles420_%hostname%.cnf TO (example=Put Your Name) yourname_%hostname%.cnf 
+echo                            fnbubbles420_%hostname%.key TO (example=PutYourName_) yourname_%hostname%.key and 
+echo                            fnbubbles420_%hostname%.cnf TO (example=PutYourName_) yourname_%hostname%.cnf 
 echo.   
 echo      On line 78 and 80 make sure to change the following: 
-echo                            fnbubbles420_%hostname%.key TO (example=Put Your Name) yourname_%hostname%.key and 
-echo                            fnbubbles420_%hostname%.cnf TO (example=Put Your Name) yourname_%hostname%.cnf
+echo                            fnbubbles420_%hostname%.key TO (example=PutYourName_) yourname_%hostname%.key and 
+echo                            fnbubbles420_%hostname%.cnf TO (example=PutYourName_) yourname_%hostname%.cnf
 echo.                                                               
 echo        Remember to save the file after you change it from: 
-echo                            fnbubbles420_%hostname%.key TO (example=Put Your Name) yourname_%hostname%.key and 
-echo                            fnbubbles420_%hostname%.cnf TO (example=Put Your Name) yourname_%hostname%.cnf
+echo                            fnbubbles420_%hostname%.key TO (example=PutYourName_) yourname_%hostname%.key and 
+echo                            fnbubbles420_%hostname%.cnf TO (example=PutYourName_) yourname_%hostname%.cnf
 echo.       
 echo.     
 echo                   *********************************************************************************
