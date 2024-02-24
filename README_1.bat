@@ -35,12 +35,13 @@ echo                           ****                                    ****
 echo                           ********************************************
 echo.
 echo          ****************************************************************************************
-echo          **Before running this script, please ensure that you update the following information:**
+echo          ***********                 Before running this script,                      ***********
+echo          ***********        please ensure that you update the following information:  ***********
 echo          ****************************************************************************************                                                                                     
 echo.            
 echo                         ********************************************************
 echo                         ***************    Hostname (domain)       *************
-echo                         *  Domain Extension (.key .cnf) (example= DO BOTH!!!)  *
+echo                         *  Domain Extension (privatekey.pem csr.pem) (example= DO BOTH!!!)  *
 echo                         ********************  Country   ************************
 echo                         ********************   State    ************************
 echo                         ********************    City      **********************
