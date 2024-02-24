@@ -75,9 +75,9 @@ echo                  -Click on Current User, then click next, if you have a pas
 echo                   PFX file you will need to enter it, if not just click next.
 echo                  -Import Options: Same window click "Mark This Key as Exportable. This will
 echo                   allow you to back up or transport your keys at a later time. Click Next. 
-echo                 
-echo                  - CONGRATS!!! YOU JUST IMPORTED YOUR CERTIFICATE INTO YOUR CURRENT USER. NOW IT IS 
-echo                   not marked with a red X and you can use it for your website, application, or whatever
+echo.                 
+echo              CONGRATS!!! YOU JUST IMPORTED YOUR CERTIFICATE INTO YOUR CURRENT USER. NOW IT IS 
+echo              not marked with a red X and you can use it for your website, application, or whatever
 echo.
 echo                     BE RESPONSIBLE WITH YOUR CERTIFICATE AND PRIVATE KEY FILES!!!!! 
 echo.                          
