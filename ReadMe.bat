@@ -81,7 +81,12 @@ echo              not marked with a red X and you can use it for your website, a
 echo.
 echo                     BE RESPONSIBLE WITH YOUR CERTIFICATE AND PRIVATE KEY FILES!!!!! 
 echo.                          
-echo.                    
+echo                    To use the PFX file and sign your files with it use this:
+echo                      Go To This Website Below To Get The GUI Signing Tool
+echo                         ******************************************** 
+echo                         ** https://www.briggsoft.com/signgui.htm  **
+echo                         ********************************************
+echo. 
 echo.                                            
 echo.     
 echo               *********************************************************************************
