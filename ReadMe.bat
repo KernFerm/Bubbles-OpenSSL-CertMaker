@@ -60,25 +60,24 @@ echo                              ****      WITH YOUR OWN INFORMATION!    ****
 echo                              ****                                    ****
 echo                              ********************************************
 echo.
-echo                         BubblesOpenSSLCertMaker.bat change the following: 
+echo                    BubblesOpenSSLCertMaker.bat DO THE FOLLOWING: 
 echo.
-echo                           ** make sure to do check folder path for key.key and certificate.crt
-echo                             after you make your key and crt files.
-echo                          To Convert Your Key and Crt to a PFX file use the following:
-echo                      **************************************************************
-echo                      **        Go To This Website For More Information           **
-echo                      **        To Convert Your Key and Crt to a PFX file         **           
-echo                      **         https://www.briggsoft.com/signgui.htm            **
-echo                      **************************************************************                       
-echo                      **************************************************************  
+echo                  -Make sure to do check folder path for privatekey.pem and csr.pem
+echo                   after you make your privatekey.pem and csr.pem are in the file.
+echo                  -Take Both Privatekey.pem and csr.pem and put them in the same folder as 
+echo                   the Bubbles_PEM_To_PFX_Converter.bat file.  
+echo                  -Then run the Bubbles_PEM_To_PFX_Converter.bat file and it will create 
+echo                   a certificate.pfx file on your desktop.
+echo.                          
+echo.                    
 echo.                                            
 echo.     
-echo                   *********************************************************************************
-echo                   *************                                                          **********
-echo                   *************    THANKS FOR USING IF YOU HAVE ANY QUESTIONS OR ISSUES  **********
-echo                   *************     PLEASE ASK IN THE ISSUES SECTION OF THE GITHUB PAGE  **********
-echo                   *********************************************************************************         
-echo.
+echo               *********************************************************************************
+echo               *************                                                          **********
+echo               *************    THANKS FOR USING IF YOU HAVE ANY QUESTIONS OR ISSUES  **********
+echo               *************     PLEASE ASK IN THE ISSUES SECTION OF THE GITHUB PAGE  **********
+echo               *************                                                          **********
+echo               *********************************************************************************
 echo.                   
 
 pause
