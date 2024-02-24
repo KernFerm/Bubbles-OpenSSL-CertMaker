@@ -15,8 +15,8 @@ for %%i in (%OPENSSL%) do (
 
 set OPENSSL_CONF=%OPENSSL_DIR%openssl.cfg
 
-set KEY_FILE=key.key
-set CERT_FILE=cert.crt
+set KEY_FILE=privatekey.pem
+set CERT_FILE=csr.pem
 set COMBINED_FILE=combined.pem
 set PFX_FILE=%USERPROFILE%\Desktop\certificate.pfx
 
@@ -26,7 +26,7 @@ if not exist %KEY_FILE% (
     exit /b
 )
 if not exist %CERT_FILE% (
-    echo Error: Certificate file (%CERT_FILE%) not found.
+    echo Error: CSR file (%CERT_FILE%) not found.
     exit /b
 )
 
@@ -41,4 +41,5 @@ del %COMBINED_FILE%
 
 echo Conversion complete. Your .pfx file is ready at: 
 echo %PFX_FILE%
+
 pause
