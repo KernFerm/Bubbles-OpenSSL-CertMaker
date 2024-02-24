@@ -1,4 +1,5 @@
 @echo off
+
 :: Author: KernFerm
 :: GitHub: https://github.com/KernFerm/Bubbles-OpenSSL-CertMaker
 :: Purpose: Makes A Self-Signed SSL Certificate using OpenSSL
@@ -8,13 +9,6 @@ setlocal enabledelayedexpansion
 set VERSION=4.20
 set OPTION=%1
 set SECOND_OPTION=%2
-
-:: Check if OpenSSL is installed and accessible
-where openssl >nul 2>&1
-if %ERRORLEVEL% neq 0 (
-    echo OpenSSL is not installed or accessible. Please install OpenSSL and try again.
-    exit /b
-)
 
 set CONFIG_FILE=%USERPROFILE%\makecert-config.ini
 set CONFIG_TEMP=%TEMP%\makecert-config.txt
@@ -141,13 +135,6 @@ if "%EMAIL%"=="" (
     set "EMAIL=email@example.com"
 )
 
-:: Validate email address format
-echo %EMAIL% | findstr /R /C:"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" >nul
-if errorlevel 1 (
-    echo Invalid email address format. Please enter a valid email address.
-    goto EnterInfo
-)
-
 :DisplayInfo
 
 echo.
@@ -201,16 +188,10 @@ echo DNS.1 = *.%HOSTNAME%
 echo DNS.2 = %HOSTNAME%
 ) > %FILENAME%
 
-:: Prompt for password securely
-set "password="
-set /p "password=Enter password for private key: " <nul
-echo.
-(
-    echo %password%
-) | call openssl req -new -x509 -newkey rsa:4096 -sha256 -nodes -keyout key_%HOSTNAME%privatekey.pem -days 1096 -out certificate_%HOSTNAME%csr.pem -config %FILENAME%
+call openssl req -new -x509 -newkey rsa:4096 -sha256 -nodes -keyout key_%HOSTNAME%privatekey.pem -days 1096 -out certificate_%HOSTNAME%csr.pem -config %FILENAME%
 
 echo.
-echo Generated your certificates key_%HOSTNAME%privatekey.pem and certificate_%HOSTNAME%csr.pem.
+echo Generated your certificates key_%HOSTNAME%privatekey.pem and cetificate_%HOSTNAME%csr.pem.
 pause
 goto :EOF
 
@@ -255,13 +236,6 @@ set EMAIL=("")
 echo What's your email? ("")
 set /p EMAIL=
 echo EMAIL=%EMAIL%>>%CONFIG_TEMP%
-
-:: Validate email address format
-echo %EMAIL% | findstr /R /C:"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" >nul
-if errorlevel 1 (
-    echo Invalid email address format. Please enter a valid email address.
-    goto SetConfig
-)
 
 echo.
 echo COUNTRY=%COUNTRY%
