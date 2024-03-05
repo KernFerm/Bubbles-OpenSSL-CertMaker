@@ -74,7 +74,7 @@ echo                   Current User.
 echo                  -Double click you PFX file you made, it will ask you to import it.
 echo                  -Click on Current User, then click next, if you have a password for your
 echo                   PFX file you will need to enter it, if not just click next.
-echo                  -Import Options: Same window click "Mark This Key as Exportable. This will
+echo                  -Import Options: Same window click Mark This Key as Exportable. This will
 echo                   allow you to back up or transport your keys at a later time. Click Next. 
 echo.                 
 echo              CONGRATS!!! YOU JUST IMPORTED YOUR CERTIFICATE INTO YOUR CURRENT USER. NOW IT IS 
