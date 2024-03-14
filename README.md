@@ -11,7 +11,7 @@
 
 
  
--dont mind my crosshair lol 
+- dont mind my crosshair in pic 
 
 # If You Do It Correctly And Follow The Steps
 
