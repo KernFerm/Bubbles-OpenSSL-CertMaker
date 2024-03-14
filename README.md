@@ -10,8 +10,10 @@
 
 
 
-## If You Do It Correctly And Follow The Steps 
-  # dont mind my crosshair lol 
+ 
+-dont mind my crosshair lol 
+
+# If You Do It Correctly And Follow The Steps
 
 ![if you do it correctly](https://media.discordapp.net/attachments/1197005458326683739/1210730806759137360/image.png?ex=65fe14ee&is=65eb9fee&hm=b1daf4848f12d8b02e50d7c29d9afd4f410fd41f546eaa501b18b9d2dd93e020&=&format=webp&quality=lossless)
 
